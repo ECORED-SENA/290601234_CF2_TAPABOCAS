@@ -1,0 +1,64 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "plan_inspeccion",
+    "title": "1. Plan de inspección y selección de materiales e insumos.",
+    "breadcrumb": ["Inicio","tema1"],
+    "path": "pages/tema-1.html"    
+  },
+
+  {
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "desarrollo_patrones",
+    "title": "2. Desarrollo de patrones.",
+    "breadcrumb": ["Inicio", "Tema 2"],
+    "path": "pages/tema-2.html"
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-file-text-o",
+    "slug": "aislamiento_maquinas",
+    "title": "3. Alistamiento de máquinas y equipos según protocolos",
+    "breadcrumb": ["Inicio", "Tema 3"],
+    "path": "pages/tema-3.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "aislamiento_maquinas",
+        "title": "3.1 Alistamiento de máquinas y equipos según protocolos",
+        "anchor": "tema3_1"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "aislamiento_maquinas",
+        "title": "3.2 Protocolo de bioseguridad - Limpieza de maquinaria, herramientas y equipos",
+        "anchor": "tema3_2"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "aislamiento_maquinas",
+        "title": "3.3 Protocolo de bioseguridad - Desinfección área de trabajo confección",
+        "anchor": "tema3_3"
+      }
+    ]   
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "herramientas_productividad",
+    "title": "4. Herramientas de productividad e indicadores de gestión",
+    "breadcrumb": [
+      "Inicio",
+      "Tema 4"
+    ],
+    "path": "pages/tema-4.html"
+  }
+]
